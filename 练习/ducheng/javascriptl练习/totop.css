@@ -1,0 +1,10 @@
+body { 
+height: 3600px; 
+} 
+#goTopBtn { 
+position: fixed;
+ left: 90%;
+ top: 70%;
+ cursor: pointer;
+ display: none;    
+} 

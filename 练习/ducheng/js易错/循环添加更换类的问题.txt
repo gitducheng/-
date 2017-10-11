@@ -1,0 +1,17 @@
+var lis = li_nav.getElementsByTagName('li');
+	for(var i = 0;i<lis.length-1;i++){
+		lis[i].id = i;
+		lis[i].onclick = function(){
+			lis[this.id].className = "active";
+		}
+	}
+
+变量提升？：（个人感觉其实就是，js没有块级作用域，相对的有函数作用域，这样比较好理解）
+function foo() {
+  for (var i = 0; i < 10; i++) {
+    var value = "hello world";
+  }
+  console.log(i); //输出10
+  console.log(value);//输出hello world
+}
+foo();

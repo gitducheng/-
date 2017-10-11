@@ -1,0 +1,110 @@
+.lu{
+  position: relative;
+  width: 600px;
+  height: 600px;
+  border:1px solid red;
+  border-radius: 300px;
+  margin: 250px auto;
+  transform-style:preserve-3d;
+  transform:rotateY(30deg) rotateX(30deg);
+}
+.wrap{
+  width: 200px;
+  height: 200px;
+  transform-origin:300px 300px ;
+  
+  position:relative;
+  transform-style:preserve-3d;
+  // transform:rotateY(30deg) rotateX(30deg);//为什么
+  // animation:move 2s linear infinite;
+  animation: move 4s linear infinite;
+}
+.div1{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border:1px solid red;
+  border-radius: 100px;
+}
+.div2{
+  position: absolute;
+  top:10px;
+  left: 10px;
+  width: 180px;
+  height: 180px;
+   border:1px solid red;
+   transform:translateZ(50px);
+   border-radius: 90px;
+}
+.div3{
+  position: absolute;
+  top:10px;
+  left: 10px;
+  width: 180px;
+  height: 180px;
+   border:1px solid red;
+   transform:translateZ(-50px);
+   border-radius: 90px;
+}
+.div4{
+  position: absolute;
+  top:10px;
+  left: 10px;
+  width: 180px;
+  height: 180px;
+   border:1px solid red;
+  transform: rotateY(90deg) translateZ(50px);
+  border-radius: 90px;
+                 
+}
+.div5{
+  position: absolute;
+ top:10px;
+  left: 10px;
+  width: 180px;
+  height: 180px;
+   border:1px solid red;
+    transform: rotateY(90deg) translateZ(-50px);
+    border-radius: 90px;
+}
+.div6{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+   border:1px solid red;
+    transform: rotateY(90deg);
+    border-radius: 100px;
+}
+.div7{
+  position: absolute;
+  top:10px;
+  left: 10px;
+  width: 180px;
+  height: 180px;
+   border:1px solid red;
+    transform: rotateX(90deg) translateZ(50px);
+    border-radius: 90px;
+}
+.div8{
+  position: absolute;
+  top:10px;
+  left: 10px;
+  width: 180px;
+  height: 180px;
+   border:1px solid red;
+   transform: rotateX(90deg) translateZ(-50px);
+   border-radius: 90px;
+}
+.div9{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+   border:1px solid red;
+   transform: rotateX(90deg);
+   border-radius: 100px;
+}
+@keyframes move {
+  to{
+    transform: rotate(360deg);
+  }
+}

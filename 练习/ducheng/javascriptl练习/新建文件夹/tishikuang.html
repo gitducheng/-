@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<title>提示框</title>
+</head>
+<style>
+	.btn{
+		margin: 50px 200px;
+	}
+</style>
+<body>
+	<a class="btn btn-primary"
+	data-toggle="tooltip"
+	data-placement="right"
+	title="右边">鼠标</a>
+	<script src="bootstrap/js/jquery-3.1.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+     <script>
+  		$(function(){
+    		$('[data-toggle="tooltip"]').tooltip();//popover是点击
+    	});
+  </script>
+</body>
+</html>

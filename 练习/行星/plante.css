@@ -1,0 +1,41 @@
+body{
+	width: 100%;
+}
+#can1{
+    /*border:dashed 2px black;*/
+    position: absolute;
+   animation:ov 1s linear infinite;
+    /*margin-top: 150px;*/
+     
+}
+
+
+.wrap{
+	margin: 200px auto;
+	position: relative;
+	width: 600px;
+	height: 600px;
+	border:1px solid black;
+	border-radius: 300px;
+	-webkit-transform-style:preserve-3d;
+}
+#railway{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	
+	-webkit-transform-origin:300px 300px;
+   animation: move 4s linear infinite;
+   
+
+}
+@keyframes move{
+	to{
+		-webkit-transform:rotate(360deg);
+	}
+}
+@keyframes mov{
+    to{
+        -webkit-transform:rotateZ(360deg);
+    }
+}

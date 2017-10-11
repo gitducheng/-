@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+#content{
+	width: 30%;
+}
+#li_nav li{
+	width: 18%;
+	text-align: center;
+	display: inline-block;
+}
+.active{
+	background-color: gray;
+	border:1px solid blue;
+}
+.pill{
+	text-align: center;
+	padding: 5px 20px;
+}
+.fade{
+	display: none;
+}
+.in{
+	display: inline-block;
+}

@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.roll{
+	position: absolute;
+	width: 240px;
+	height: 240px;
+	margin: 100px 500px;
+	border-radius: 120px;
+	overflow: hidden;
+	background-image: url("ngnl.jpg");
+	background-repeat: repeat-x;
+	-webkit-animation: move 3s linear infinite;
+}
+@keyframes move{
+	0%{
+		background-position: 0 0;
+	}
+	100%{
+		background-position: -480px 0;
+	} 
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    position: relative;
+    text-align: center;
+}
+
+.box {
+    width: 154px;
+    float: left;
+    margin: 10px 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.box img {
+    padding: 10px;
+    width: 132px;
+}

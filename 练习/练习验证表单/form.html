@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单验证</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+	<form action="" class="form">
+		<div class="name">
+			<label for=""><span>姓名: </span><input type="text"></label>
+			<p id="name_msg">推荐使用中文名</p>
+		</div>
+		<div id="prompt"><span></span>0个字符</div>
+		<div class="password">
+			<label for=""><span>密码: </span><input type="password"></label>
+			<p id="paw_msg">5-25字符推荐乱打</p>
+		</div>
+		<label class="grade"><em>弱</em><em>中</em><em>强</em></label>
+		<div class="repassword">
+			<label for=""><span>确认密码: </span><input type="password" disabled=""></label>
+			<p id="paw2_msg">请再输入一次</p>
+		</div>
+		<div class="submit"><input type="submit" value="同意协议并注册"></div>
+	</form>
+</body>
+</html>

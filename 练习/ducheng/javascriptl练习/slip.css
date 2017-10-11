@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+}
+#div1{
+	height: 83px;
+	/*overflow: hidden;*/
+	display: inline-block;
+	margin: 100px 200px;
+	border: 1px solid red;
+}
+#div2{
+	height: 100%;
+	text-align:center;
+	background-color: #EEEEFF;
+}
+#div2 p{
+	padding-top: 30px;
+}
+#div1:hover #div2{
+	-webkit-transition:all 0.3s linear;
+	margin-top: -83px;
+	opacity: 0.8;
+}

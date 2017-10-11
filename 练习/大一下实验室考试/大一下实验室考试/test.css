@@ -1,0 +1,337 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: "Microsoft YaHei";
+	outline: none;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color: black;
+}
+body{
+	background-color: #e8e8e8;
+}
+
+
+
+
+/*头部*/
+header{
+	width: 100%;
+	overflow: hidden;
+	background-color: #252525;
+	color: gray;
+}
+header img{
+		vertical-align: baseline;
+		margin-left: 30px;
+}
+header div{
+	display: inline-block;
+	padding: 50px 40px;
+}
+header h1{
+	color: orange;
+}
+header p{
+	display: inline-block;
+	margin-left: 400px;
+}
+header span{
+	color: #e4e4e4;
+}
+
+
+
+/*导航*/
+nav{
+	background-color: #f8af3b;
+	width: 100%;
+	overflow: hidden;
+	padding: 30px 0px;
+	text-align: center;
+}
+nav ul li{
+	border-radius: 5px;
+}
+nav ul li:last-child{
+	margin-right: 0px;
+}
+nav ul li a{
+	padding: 10px;
+	border: 1px solid #f8af3b;
+}
+nav ul li a:hover{
+	background: black;
+	color: orange;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+
+
+/*主体内容*/
+.main{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: white;
+}
+
+
+
+
+
+/*上面部分*/
+.top{
+	background: #e8e8e8;
+	padding-bottom: 30px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.top form{
+	display: inline-block;
+	margin-top: 40px;
+}
+.top form input{
+	padding: 6px;
+}
+.top form img{
+	vertical-align: middle;
+}
+#button{
+	background-color:black;
+	color: orange;
+	outline: none;
+}
+.basket{
+	position: absolute;
+	right: 0px;
+	bottom: 30px;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: bottom;
+}
+.article{
+	float: right;
+}
+
+
+
+
+/*左边部分*/
+aside{
+	display: inline-block;
+	width: 310px;
+}
+.search-1{
+	position: absolute;
+	margin-left: 20px;
+}
+.search-2 span{
+	padding-left: 5px;
+	color: gray;
+}
+aside span{
+	font-size: 12px;
+}
+aside form{
+	width: 100%;
+	display: inline-block;
+	border: 1px solid gray;
+}
+aside ul{
+	margin-top: 30px;
+}
+aside ul li{
+	display: block;
+	padding: 10px;
+	width: 100%;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+aside ul li:hover{
+	background: #e8e8e8;
+	border: 1px solid gray;
+}
+aside form input{
+	margin: 20px 0px 20px 5px;
+	padding:5px;
+}
+.aside-search{
+	background: #26272a;
+	color: orange;
+	padding-left: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.brand img{
+	vertical-align: -10px;
+	margin-left: -4px;
+}
+.brand input{
+	width: 250px;
+	line-height: 16px;
+}
+.one{
+	padding: 10px 20px 10px 20px;
+	background: #f79f29;
+	color: white;
+}
+.soft{
+	margin-top: 0px;
+}
+.hard li{
+	border-top: 1px solid #bfbfbf;
+}
+
+
+
+
+
+/*右边部分*/
+.right{
+	float: right;
+	width: 615px;
+}
+.computer-article{
+	white-space: normal;
+	width: 250px;
+	float: right;
+	position: relative;
+}
+.circle{
+	position: absolute;
+	top: -30px;
+	left: -140px;
+}
+.computer-article p{
+	background-color: orange;
+	color: white;
+	padding: 10px;
+	border: 1px solid white;
+}
+.computer-article form{
+	text-align: center;
+}
+.computer{
+	background-color: black;
+	color: orange;
+	padding: 30px;
+}
+.computer p{
+	margin-bottom: 30px;
+}
+.price{
+	position: absolute;
+	top: 30px;
+	left: -110px;
+}
+
+
+
+
+
+.notepad{
+	width: 300px;
+	display: inline-block;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.notepad{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+.notepad h2{
+	text-align: left;
+	background: orange;
+	color: white;
+}
+.notepad div{
+	text-align: left;
+	background: orange;
+}
+.notepad form{
+	text-align: center;
+	padding: 30px 0px;
+}
+.notepad div img{
+	margin-left: 50px;
+}
+.view{
+	padding: 10px;
+	color: white;
+	background: #3b3b3b;
+	border-radius: 7px;
+	margin-right: 10px;
+}
+.add{
+	padding: 10px;
+	color: white;
+	background: #f79f29;
+	border-radius: 7px;
+}
+
+
+
+
+
+/*脚部部分*/
+footer{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+footer ul li{
+	display: block;
+}
+footer ul li a{
+	color: orange;
+}
+footer div{
+	display: inline-block;
+}
+.Quicklinks{
+	vertical-align: top;
+	margin-right: 115px;
+}
+.Hot{
+	padding-bottom: 30px;
+}
+.latest{
+	vertical-align: top;
+	background-color: #e0e0e0;
+	padding: 30px;
+	border: 1px solid #f0f0f0;
+	border-radius: 5px;
+}
+.latest ul li{
+	margin-bottom: 10px;
+}
+.latest ul li:first-child{
+	margin-top: 10px;
+}
+.latest h4{
+	margin-top: -30px;
+}
+.latest img{
+	margin-left: 50px;
+}
+.right{
+	display: inline-block;
+}
+.footer-1{
+	padding-top: 30px;
+	border-top: 5px solid #cccccc;
+}
+.footer-1 p{
+	display: inline-block;
+}
+.desgin{
+	margin-left: 190px;
+}

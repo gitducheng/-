@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	background-color: #7f7f7f;
+}
+.h_left{
+	display: inline-block;
+	margin-left: 327px;
+}
+.h_right{
+	position: relative;
+	display: inline-block;
+	margin-left: 568px;
+}
+#xing{
+	margin-left: 64px;
+}
+#APP{
+	position: absolute;
+	top: 35px;
+	border:1px solid #33a2f8;
+}
+#erweima{
+	padding: 5px;
+	border-radius: 2px;
+}
+#phone{
+	border-radius: 10px;
+}
+#weixin{
+	border-radius: 10px;
+}
+.sp1{
+	position: absolute;
+	border-top:0;
+	border-right: 6px solid #fff;
+	border-left: 6px solid #fff;
+	border-bottom:6px solid #33a2f8;
+	top: -6px;
+	left: 30px;
+	
+}
+.sp2{
+	position: absolute;
+	border-top: 0;
+	border-right:3px solid #33a2f8;
+	border-left: 3px solid #33a2f8;
+	border-bottom:3px solid #fff;
+	top: -3px;
+	left: 33px;
+}

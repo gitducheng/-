@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* 一种方法  */
+.top
+{
+    position: relative;
+
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+
+    border: 1px solid black;
+}
+.sp1
+{
+    position: absolute;
+    top: -6px;
+    left: 50px;
+
+    border-top: 0;
+    border-right: 6px solid white;
+    border-bottom: 6px black solid;
+    border-left: 6px solid white;
+}
+.sp2
+{
+    position: absolute;
+    top: -3px;
+    left: 53px;
+
+    border-top: 0;
+    border-right: 3px solid black;
+    border-bottom: 3px solid white;
+    border-left: 3px solid black;
+}
+/*另一种方法*/
+.right
+{
+    position: relative;
+
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+
+    background-color: #000;
+}
+.arrow
+{
+    top: -5px;
+
+    width: 0;
+    height: 0;
+
+    border: 10px solid;
+    border-color: #000 #000 #fff #000;
+}

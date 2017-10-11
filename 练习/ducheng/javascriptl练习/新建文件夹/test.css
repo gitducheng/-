@@ -1,0 +1,30 @@
+/**{
+	margin:0;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+aside{
+	width: 25%;
+	position: fixed;
+	left: 98%;
+	top: 20%;
+	-webkit-transition:all 1s ease-in;
+}
+aside ul li{
+	list-style: none;
+}
+aside ul li a{
+	text-decoration: none;
+	color: black;
+}
+*/
+
+
+
+div{
+	width: 200px;
+	height: 200px;
+	background-color: #EEEEFF;
+}

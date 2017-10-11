@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="plante.css">
+</head>
+   <script type="text/javascript">
+   		function draw(id){
+   			var canvas = document.getElementById(id);
+   			var context = canvas.getContext('2d');
+   			var color = context.createLinearGradient(0,0,200,200);
+   			color.addColorStop(0,'#78B1E8');
+   			color.addColorStop(1,'#050C12');
+   			context.beginPath();
+   			context.fillStyle = color;
+   			context.arc(100,100,100,0,Math.PI*2,true);
+   			context.closePath();
+   			 context.fill();		
+   		}
+   </script>
+ <body onload="draw('can1')">
+<div class="wrap">
+ <div id="railway">
+        <canvas id="can1" width="200px" height="200px">4</canvas>
+ </div>
+
+</div> 
+   </body>
+</html>
